@@ -19,13 +19,13 @@ class UserTableSeeder extends Seeder
         $role_syst = Role::where('name', 'sistema')->first();
         $user = new User();
         $user->name = 'Leo';
-        $user->email = 'leoriccieri@gmail.com';
-        $user->password = bcrypt('$0loforo');
+        $user->email = 'leo@gmail.com';
+        $user->password = bcrypt('leo');
         $user->save();
         $user->roles()->attach($role_syst);
         $user = new User();
         $user->name = 'Lerori';
-        $user->email = 'lerori@autosoft.com.ar';
+        $user->email = 'lerori@autosoft.com';
         $user->password = bcrypt('lerori');
         $user->save();
         $user->roles()->attach($role_admin);
