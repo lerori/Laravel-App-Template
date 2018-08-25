@@ -1,3 +1,5 @@
+Laravel 5.6 test template with AdminLTE package
+-----------------------------------------------
 Laravel AdminLTE manual installation
 Follow the typical Laravel package installation steps:
 
